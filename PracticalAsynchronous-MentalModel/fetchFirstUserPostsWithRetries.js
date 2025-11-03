@@ -62,6 +62,8 @@ function fetchFirstUserPostsWithRetries() {
 fetchFirstUserPostsWithRetries()
   .then((data) => {
     console.log("✅ Success:", data);
+    // Or pretty-print the result as JSON if preferred
+    // console.log("✅ Success:", JSON.stringify(data, null, 2));
   })
   .catch((error) => {
     console.error("❌ Error:", error.message);
