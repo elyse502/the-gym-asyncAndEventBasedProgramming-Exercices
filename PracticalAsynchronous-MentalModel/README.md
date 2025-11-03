@@ -1,6 +1,6 @@
-# Practical Asynchronous Mental Model
+<h1 align="center"><sup>📚</sup>Practical Asynchronous Mental Model<sub>🧠</sub></h1>
 
-## 📚 Project Description
+## 🎯 Objective
 
 Your task is to implement an asynchronous function `fetchFirstUserPostsWithRetries()` that performs the following steps:
 
