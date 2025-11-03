@@ -1,0 +1,21 @@
+{
+  "title": "The Curious Developer",
+  "author": "Elysée Niyibizi",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "The Beginning",
+      "text": "Once upon a time, a young developer discovered the power of asynchronous JavaScript."
+    },
+    {
+      "chapter": 2,
+      "title": "The Challenge",
+      "text": "He faced callback hell but learned the magic of Promises and async/await."
+    },
+    {
+      "chapter": 3,
+      "title": "The Mastery",
+      "text": "With great understanding came great power — the ability to write clean, efficient async code."
+    }
+  ]
+}
