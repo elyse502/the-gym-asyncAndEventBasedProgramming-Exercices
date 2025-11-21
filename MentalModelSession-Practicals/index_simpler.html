@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <title>Click Counter</title>
+  <body>
+    <button id="clickBtn" onclick="handleClick()">Click me! Count: 0</button>
+
+    <script>
+      let count = 0;
+      let isBusy = false;
+
+      function handleClick() {
+        if (isBusy) return;
+
+        const btn = document.getElementById("clickBtn");
+        btn.disabled = true;
+        btn.textContent = "Processing...";
+        isBusy = true;
+
+        setTimeout(() => {
+          count++;
+          btn.textContent = `Click me! Count: ${count}`;
+          btn.disabled = false;
+          isBusy = false;
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>
